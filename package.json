@@ -1,0 +1,16 @@
+{
+  "name": "layout-designer-project-58",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/shalimovVladislav/layout-designer-project-58/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/shalimovVladislav/layout-designer-project-58/actions)",
+  "main": "",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-scss": "^4.4.0",
+    "surge": "^0.23.1"
+  },
+  "author": "Shalimov Vladislav",
+  "license": "ISC"
+}
