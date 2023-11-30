@@ -4,6 +4,7 @@
 }
 
 @font-face {
+  font-weight: 400;
   font-family: "Open Sans";
   src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
 }
@@ -42,16 +43,16 @@ body {
   height: 258px;
   margin-top: 100px;
   margin-left: 165px;
-  text-align: left;
+  text-align: justify;
   z-index: 200;
 }
 
 .header-img {
+  position: absolute;
   width: 1082.81px;
   height: 525px;
-  position: absolute;
   top: 55px;
-  left: 461px;
+  left: 462px;
   z-index: 100;
 }
 
@@ -71,13 +72,55 @@ body {
 .header-btn {
   display: block;
   margin-left: 735px;
-  margin-top: 40px;
+  margin-top: 38px;
 }
 
 .btn {
   width: 148px;
   height: 49px;
   border: none;
+}
+
+.video-section {
+  position: relative;
+  display: block;
+  width: 1440px;
+  height: 914px;
+  overflow: hidden;
+}
+
+.video-section-title {
+  display: block;
+  width: 1110px;
+  height: 146px;
+  margin-left: 165px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.video-section-subtitle {
+  display: block;
+  width: 1110px;
+  height: 26px;
+  margin-left: 165px;
+  margin-top: 27px;
+  text-align: center;
+}
+
+.video-section-video {
+  position: relative;
+  z-index: 200;
+  margin-left: 261px;
+  margin-top: 30px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.video-section-gab {
+  position: absolute;
+  z-index: 100;
+  top: 805px;
+  width: 1440px;
+  height: 110px;
 }
 
 .footer {
@@ -211,7 +254,7 @@ body {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 6%;
+  opacity: 10%;
 }
 
 .white50-background {
