@@ -40,15 +40,15 @@
   color: var(--translucent-white);
 }
 
-.bkg-brown {
+.bg-brown {
   background-color: var(--brown);
 }
 
-.bkg-white {
+.bg-white {
   background-color: var(--white);
 }
 
-.bkg-light {
+.bg-light {
   background-color: var(--light);
 }
 
